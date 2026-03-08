@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "services": "Services",
+    "creations": "Creations",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Stone Gardens",
+    "description": "Gardens designed to last, carefully maintained through every season."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "StoneGardens supports homeowners with garden maintenance, restoration and outdoor layout projects. Each garden is approached with careful attention to detail, seasonal cycles and overall balance. The goal is simple: create outdoor spaces that are enjoyable, durable and easy to maintain."
+  },
+  "services": {
+    "title": "Our Services",
+    "service-1": {
+      "title": "Garden Maintenance",
+      "description": "Regular, seasonal maintenance and garden restoration."
+    },
+    "service-2": {
+      "title": "Garden Design & Planting",
+      "description": "Garden design, planting and bed creation."
+    },
+    "service-3": {
+      "title": "Landscaping",
+      "description": "Outdoor layouts, paths, borders and light earthworks."
+    }
+  },
+  "creations": {
+    "title": "Our Creations",
+    "prevButton": "Previous image",
+    "nextButton": "Next image"
+  }
+}

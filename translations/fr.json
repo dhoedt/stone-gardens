@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "services": "Services",
+    "creations": "Créations",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Stone Gardens",
+    "description": "Des jardins pensés pour durer, entretenus avec soin, saison après saison."
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "description": "Stone Gardens accompagne les particuliers dans l'entretien, la remise en état et l'aménagement de leur jardin. Chaque projet est abordé avec une attention particulière portée aux détails, au rythme des saisons et à l'équilibre du jardin. L'objectif est simple : créer des espaces extérieurs agréables, durables et faciles à vivre."
+  },
+  "services": {
+    "title": "Nos Services",
+    "service-1": {
+      "title": "Entretien de Jardin",
+      "description": "Entretien régulier, saisonnier et remise en état des jardins."
+    },
+    "service-2": {
+      "title": "Conception et plantations",
+      "description": "Création de jardins, plantations et aménagement de massifs."
+    },
+    "service-3": {
+      "title": "Aménagement extérieur",
+      "description": "Chemins, bordures, organisation des espaces et terrassement léger."
+    }
+  },
+  "creations": {
+    "title": "Nos Créations",
+    "prevButton": "Image précédente",
+    "nextButton": "Image suivante"
+  }
+}

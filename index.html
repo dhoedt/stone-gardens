@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Services professionnels d'entretien et aménagement de jardin à Bruxelles">
+    <title>Stone Gardens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">Stone Gardens</h1>
+            <button class="burger-menu" id="nav-menu-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link" data-i18n="nav.about">About</a></li>
+                    <li><a href="#services" class="nav-link" data-i18n="nav.services">Services</a></li>
+                    <li><a href="#creations" class="nav-link" data-i18n="nav.creations">Creations</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="lang-selector">
+                <button class="lang-btn lang-btn-en active" data-lang="en" aria-label="English">🇬🇧</button>
+                <button class="lang-btn lang-btn-fr" data-lang="fr" aria-label="Français">🇫🇷</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2 data-i18n="hero.title">Stone Gardens</h2>
+                <p data-i18n="hero.description">Des jardins pensés pour durer, entretenus avec soin, saison après
+                    saison.</p>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 data-i18n="about.title">À Propos de Nous</h2>
+                <p data-i18n="about.description">Stone Gardens accompagne les particuliers dans l'entretien, la remise
+                    en état et l'aménagement de leur jardin. Chaque projet est abordé avec une attention particulière
+                    portée aux détails, au rythme des saisons et à l'équilibre du jardin. L'objectif est simple : créer
+                    des espaces extérieurs agréables, durables et faciles à vivre.</p>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h2 data-i18n="services.title">Nos Services</h2>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <h3 data-i18n="services.service-1.title">Entretien de Jardin</h3>
+                        <p data-i18n="services.service-1.description">Entretien régulier, saisonnier et remise en état
+                            des jardins.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3 data-i18n="services.service-2.title">Conception et plantations</h3>
+                        <p data-i18n="services.service-2.description">Création de jardins, plantations et aménagement de
+                            massifs.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3 data-i18n="services.service-3.title">Aménagement extérieur</h3>
+                        <p data-i18n="services.service-3.description">Chemins, bordures, organisation des espaces et
+                            terrassement léger.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="creations" class="work">
+            <div class="container">
+                <h2 data-i18n="creations.title">Our Creations</h2>
+                <div class="carousel-wrapper">
+                    <div class="carousel" id="creations-carousel">
+                        <img src="./img/projects/project-1.jpg" alt="project showcase 1" class="carousel-image active">
+                    </div>
+                    <button class="carousel-button carousel-prev" id="carousel-prev" aria-label="Previous image">
+                        &lt;
+                    </button>
+                    <button class="carousel-button carousel-next" id="carousel-next" aria-label="Next image">
+                        &gt;
+                    </button>
+                </div>
+                <div class="carousel-dots" id="carousel-dots"></div>
+            </div>
+        </section> -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <!-- <h2>Contact Us</h2> -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <a href="mailto:info@stonegardens.be">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <p>info@stonegardens.be</p>
+                        </a>
+                    </div>
+                    <div class="contact-item">
+                        <a href="tel:+32479528711">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <p>+32 479 52 87 11</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p><span data-i18n="footer.credit">Made with lots of ♥ by</span> <a
+                    href="https://www.linkedin.com/in/martin-dhoedt/">Martin D'Hoedt</a></p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="driver.js"></script>
+</body>
+
+</html>
