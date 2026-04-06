@@ -309,15 +309,15 @@ a:hover {
 }
 
 .service-card:nth-child(1) {
-    background-image: url('https://picsum.photos/400/300?random=10');
+    background-image: url('https://images.unsplash.com/photo-1758380410961-89bf3dfe6110?w=400&fit=crop');
 }
 
 .service-card:nth-child(2) {
-    background-image: url('https://picsum.photos/400/300?random=11');
+    background-image: url('https://images.unsplash.com/photo-1715534246270-e573599ebff3?w=400&fit=crop');
 }
 
 .service-card:nth-child(3) {
-    background-image: url('https://picsum.photos/400/300?random=12');
+    background-image: url('https://images.unsplash.com/photo-1700689807667-82630348b301?w=400&fit=crop');
 }
 
 .service-card h3 {
